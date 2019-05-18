@@ -5,7 +5,6 @@ $(document).ready(function() {
     "bird", "ferret", "turtle", "frog", "platypus", "liger"
   ];
 
-  // function to make buttons and add to page
   function populateButtons(arrayToUse, classToAdd, areaToAddTo) {
     $(areaToAddTo).empty();
 
